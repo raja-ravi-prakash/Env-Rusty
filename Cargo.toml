@@ -1,0 +1,11 @@
+[package]
+name = "env_cli"
+version = "0.1.0"
+authors = ["raja-ravi-prakash <iamraviprakash1@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winreg = "0.7"
+colored = "1.9"
