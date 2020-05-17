@@ -1,4 +1,5 @@
 mod vendor;
+use colored::Colorize;
 use std::env;
 
 fn main() {
@@ -12,5 +13,8 @@ fn main() {
     } else if option == "--reg" {
         let path = env::args().nth(4);
         vendor::setr(name, key, path);
+    } else {
+        print!("{}", "error : ".red());
+        print!("No option {} found\n", option);
     }
 }
