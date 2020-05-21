@@ -20,7 +20,7 @@ A CLI tool to modify (or) create environment variables and even update and creat
         > cargo run "your-key-name" "your-key" --env
         ```
         
-    - For creating Environment Variables .
+    - For creating Registry Variables .
       
         ```cmd
         > cargo run "your-key-name" "your-key" --reg "your-path"
